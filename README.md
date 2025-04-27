@@ -5,7 +5,7 @@ A CLI tool to count GPT token usage across project files.
 ## Installation
 
 ```bash
-pip install git+https://github.com/yourusername/count-tokens.git
+pip install git+https://github.com/andydrewie/count-tokens.git
 ```
 
 ## Usage
@@ -29,8 +29,7 @@ count-tokens --root ./my-project --exts .py .md --exclude-dirs venv
 ## Development
 
 ```bash
-git clone https://github.com/yourusername/count-tokens.git
+git clone https://github.com/andydrewie/count-tokens.git
 cd count-tokens
 pip install -e .
 count-tokens --root .
-```
